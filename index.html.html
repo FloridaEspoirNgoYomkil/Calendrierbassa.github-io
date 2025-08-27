@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>NGAAKEK KOM BOGA – NWII 42794</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4fdfc;
+      color: #333;
+      padding: 20px;
+      background-image: url('GSM1.jpg');
+      background-repeat: no-repeat;
+      background-size: auto;
+    }
+
+    h1,h2,h5 {
+      text-align: center;
+      color: #004d40;
+    }
+
+    .buttons {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    button {
+      background-color: #00796b;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    button:hover {
+      background-color: #004d40;
+    }
+
+    .mois-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+    }
+
+    .mois {
+      background-color: #ffffff;
+      border: 2px solid #00796b;
+      border-radius: 10px;
+      padding: 10px;
+      width: 300px;
+      box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+      page-break-inside: avoid;
+    }
+
+    .mois h3 {
+      text-align: center;
+      color: #00796b;
+    }
+
+    .tolangwa {
+      margin-bottom: 10px;
+    }
+
+    .tolangwa h4 {
+      color: #009688;
+      margin-bottom: 4px;
+    }
+
+    .jours {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+
+    .jour {
+      background-color: #e0f2f1;
+      border-radius: 5px;
+      padding: 5px;
+      font-size: 13px;
+      flex: 1 1 45%;
+    }
+
+    @media print {
+      body {
+        background-color: white;
+        color: black;
+      }
+
+      button {
+        display: none;
+      }
+
+      .mois {
+        box-shadow: none;
+        border-color: black;
+      }
+
+      h1, h2 {
+        color: black;
+      }
+    }
+    .notes {
+  max-width: 800px;
+  margin: 30px auto;
+  font-size: 15px;
+  line-height: 1.6;
+  background: #fff;
+  border: 1px solid #b2dfdb;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.05);
+}
+
+.notes strong {
+  color: #004d40;
+}
+
+.notes blockquote {
+  background-color: #e0f2f1;
+  border-left: 5px solid #00796b;
+  padding: 10px 15px;
+  margin: 15px 0;
+  font-style: italic;
+}
+
+  </style>
+</head>
+<body>
+
+<h1>NGAAKEK KOM BOGA – NWII 42794</h1>
+<h5><em> nkol u nkii i yañan ngéda. ngwéléh i kilag i ngéda yé</em></h5>
+
+<div class="buttons">
+  <button onclick="window.print()">🖨️ Imprimer</button>
+  <button onclick="generatePDF()">📄 Exporter en PDF</button>
+</div>
+
+<h2>Les 12 Mois (SOÑ) et leurs 36 semaines (TOLANGWA)</h2>
+<div class="mois-container" id="calendar"></div>
+
+<h2>⟪ Ndeg Ndopol ⟫</h2>
+<div class="notes">
+  <p><strong>Bassa ba bi bodol aŋ ni bok ngeda len 42794 nwii</strong><br><br>
+  hala we 25 ma bikèk bi hisòt (cycles sothiaques) i lò ane i bi farao i be bodòl i Kemet.<br>
+  Kèk hisòt yada i nòm 1460 nwii.<br>
+  I kèk di yè, i bi bodle i nwii 42369, len 425 nwii. I ga melel i nwii 43830, len 1036 nwii.<br>
+  Hiki hilo bisu hi soŋ njeba, nwii wada u nkondba.<br>
+  Handugi i ndeg mam i, ngààkek i nhen be.</p>
+
+  <p><strong>Nwii u ye nkabag</strong><br><br>
+  [1*2 soŋ] : Njeba, Hikaŋ, Dipos, Bi oom, Ma ye sep, Lìbuy li nyee, Kondoŋ.<br>
+  Macel, Matop, Martúmb, Mpuye, Hilòndè.</p>
+
+  <blockquote>
+    **Dilo di tan, dilo di ngand Bàbog i pola lisuk li nwii ni bi bodle bi nwii yondo : ngwa Sep to le lwiye, ngwa Hòdo, ngwa Hisi, ngwa Lisànda ni ngwa Kòhle.<br>
+    **Ngeŋ i samal.<br>
+    Soŋ i gwe 30 ma dilo, nkabak tolangwà i aa.<br>
+    Hiki tolangwa i gwe ma ngwà to le dilo 10 : ngwa Njangumba, ngwa Mbak, ngwa Njek, ngwa Nge, ngwa Um, ngwa Mbok, ngwa Koo, ngwa Jon, ngwà Bilàba, ngwà Bum.<br>
+    Nwii u gwe tolangwà 36.
+  </blockquote>
+
+  <p><strong>Bi yimbne bi samal inyu yi aŋ ngaakek :</strong><br><br>
+  ▪ Ngwa Njangumba, hilo bisu hi Njeba a ye kel ngand nwii yondo.<br>
+  ▪ Ngwa Koo, hilo 27 hi Hikaŋ a ye kel mbigda nyemb Um Nyobe.<br>
+  ▪ Ngwa Njek, hilo 23 hi Bi oom, a ye kel ngand Mpoo.<br>
+  ▪ Ngwa Bum, hilo 10 hi Libuy li nyee a ye kel ngand ngwo.<br>
+  ▪ Ngwa Koo, hilo 17 hi Libuy li nyee a ye kel mbigda Kunde lon Kamerun.<br>
+  ▪ Ngwa Koo, hilo 17 hi Matop a ye kel ngand nson.
+  </p>
+  <p><strong>Hilo hi bisu hi soŋ</strong><br><br>
+Njeba          = 19 juillet<br>
+Hikaŋ          = 18 aout<br>
+Dipos          = 17 septembre<br>
+Bi oom         = 17 octobre<br>
+Ma ye sep      = 16 novembre<br>
+Libuy li nyee  = 16 decembre<br>
+Kondoŋ         = 15 janvier<br>
+Macel          = 14 fevrier<br>
+Matop          = 15 mars<br>
+Matumb         = 14 avril<br>
+Mpuye          = 14 mai<br>
+Hilonde         = 13 juin<br></p>
+</div>
+
+
+<!-- Script calendrier -->
+<script>
+  const moisBassa = [
+    "NJÈBÀ", "HÌ KAÑ", "DÌ PɔH", "BÌ ÓÓM", "MÀ Yɛ SÈP", "LÌ BUY LÌ N'YE",
+    "KɔNDɔÑ", "MÀ TJɛL", "MÀ TUMB", "MÀ TOP", "MPUYɛ", "HÌ LÒNDɛ"
+  ];
+
+  const nomsJoursBassa = [
+    "Ngwa Njangumba", "Ngwa Nbag","Ngwa Njég","Ngwa Um","Ngwa Ngé",
+    "Ngwa Mbog", "Ngwa Koo", "Ngwa Jon", "Ngwa Bi laba", "Ngwa Bum"
+  ];
+
+  const nomsTolangwa = [
+    "BODÑEM", "BILIA", "NGÉN", "SUHUL NYU", "NDAG", "SESEMA", "GWÉHA", "MAYEGNA",
+    "NGÉDI", "MASODA", "LIGIB", "BABOD", "OMSIÑ", "M'BAN", "BABOG","NWEE", "MAKÉND", "LINGWÉLÉH",
+    "ADNA", "MAPUBI", "LIKWEE", "NJIÑGE", "HOGBE", "LIKEÑGE", "NIHBE", "MAHOL",
+    "NTOL", "NSAÑ", "LIPÉM", "NJOHA", "NGOO", "MANOGLA", "LIPOYOG", "MASÉ", "LIBO",
+    "LIKAB"
+  ];
+
+  const calendar = document.getElementById("calendar");
+  let tolangwaIndex = 0;
+
+  // Générer les 12 mois avec leurs 3 TOLANGWA
+  moisBassa.forEach((mois) => {
+    const moisDiv = document.createElement("div");
+    moisDiv.className = "mois";
+    moisDiv.innerHTML = `<h3>${mois}</h3>`;
+
+    for (let i = 0; i < 3; i++) {
+      const start = i * 10 + 1;
+      const end = start + 9;
+      const nomTolangwa = nomsTolangwa[tolangwaIndex++] || "TOLANGWA ?";
+
+      const tolangwaDiv = document.createElement("div");
+      tolangwaDiv.className = "tolangwa";
+      tolangwaDiv.innerHTML = `<h4>TOLANGWA ${i + 1} – ${nomTolangwa}</h4>`;
+
+      const joursDiv = document.createElement("div");
+      joursDiv.className = "jours";
+
+      for (let j = start; j <= end; j++) {
+        const nomJour = nomsJoursBassa[(j - 1) % 10];
+        const jourDiv = document.createElement("div");
+        jourDiv.className = "jour";
+        jourDiv.textContent = `${j} – ${nomJour}`;
+        joursDiv.appendChild(jourDiv);
+      }
+
+      tolangwaDiv.appendChild(joursDiv);
+      moisDiv.appendChild(tolangwaDiv);
+    }
+
+    calendar.appendChild(moisDiv);
+  });
+
+  
+
+</script>
+
+<!-- Scripts PDF -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script>
+  async function generatePDF() {
+    const { jsPDF } = window.jspdf;
+    const canvas = await html2canvas(document.body, {
+      scale: 2,
+      useCORS: true
+    });
+
+    const imgData = canvas.toDataURL("image/png");
+    const pdf = new jsPDF("p", "mm", "a4");
+
+    const pdfWidth = pdf.internal.pageSize.getWidth();
+    const pdfHeight = (canvas.height * pdfWidth) / canvas.width;
+
+    pdf.addImage(imgData, "PNG", 0, 0, pdfWidth, pdfHeight);
+    pdf.save("calendrier-bassa-42794.pdf");
+  }
+</script>
+
+</body>
+</html>
